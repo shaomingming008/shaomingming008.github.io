@@ -1,8 +1,39 @@
+<!doctype html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href="./common.css" type="text/css" rel="stylesheet" />
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+    <link href="./nav/nav.css" type="text/css" rel="stylesheet" />
+    <script src="./index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="index-page">
+        <div class="nav" id="">
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="./list/list.html">Blog</a></li>
+                <li><a href="./rainyday/index.html">Mood</a></li>
+                <li><a href="./photo/photo.html">Photo</a></li>
+            </ul>
+        </div>
+        <div class='box'>
+            <p class='title'>世界上唯一对每个人公平的就是时间</p>
+            <!--3d时钟-->
+            <div id="clock_3d"></div>
+            <!--end3d时钟-->
+        </div>
+        
+    </div>
+    <script>
+        Clock3D.clock_3d.create('clock_3d');
+    </script>
+
+</body>
+
 </html>
